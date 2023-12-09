@@ -1,0 +1,29 @@
+h1{
+    /* here first is used to right and second is used to down; */
+    text-shadow:8px 10px blue;
+    padding:20px;
+
+    border:1px solid red;
+    /* we can give shadow more than one time in both text-shadow and box-shadow ,here fourth vlaue is used for 
+    spread  which increase the size of the shadow */
+    box-shadow:3px 3px 3px grey,5px 5px 3px rgb(241, 25, 25);
+
+
+}
+h2{
+    /* here first is used for left and second is used to up and third is used for blur radius; */
+    text-shadow:-10px -0px 2px  yellow;
+
+}
+.umer{
+    text-shadow:4px 1px 2px grey;
+    margin-bottom: 30px;
+}
+.box{
+    /* background-color: aqua; */
+    height: 100px;
+    width:300px;
+    margin:auto;
+    border: 1px sold black;
+    box-shadow: 0 0 3px 9px grey;
+}
